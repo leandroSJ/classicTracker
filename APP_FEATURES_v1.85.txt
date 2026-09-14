@@ -1,0 +1,44 @@
+🚀 Classic Tracker - Versão 1.85
+Resumo Completo de Funcionalidades
+
+1. 🎙️ Inteligência e Voz (Assistente "Classic")
+• Saudação Dinâmica: Bom dia/tarde/noite ao abrir o app com leitura da hora.
+• Informativo de Bordo: Áudio automático sobre autonomia, último abastecimento e quilometragem do óleo.
+• Clima Real: Temperatura e condição do céu em tempo real para Salvador e Candeias - BA.
+• Relógio Falante: Anuncia a hora cheia durante o trajeto (ex: "Agora são 17 horas").
+• Voz Personalizável: Seletor de vozes masculinas e femininas direto nas configurações.
+
+2. 🛣️ Rastreamento e GPS Profissional
+• Monitoramento de Viagem: Gravação de trajeto com precisão decimal.
+• Métricas de Performance: Velocidade Média e Velocidade Máxima calculadas por viagem.
+• Rastro no Mapa: Desenha a linha exata do percurso em ciano.
+• Anti-Bloqueio de Tela: Mantém a tela acesa enquanto o app está aberto.
+• Cálculo de Tempo: Duração da viagem exibida em horas e minutos.
+
+3. 🛡️ Segurança e Alertas (Estilo Waze)
+• Radares Automáticos: Alerta de voz com 800 metros de antecedência (Base OpenStreetMap).
+• Reports Manuais: Botão para marcar Buracos e Quebra-molas com etiquetas de texto no mapa.
+• Radar Manual: Registro de radares novos com pergunta de velocidade máxima permitida.
+• Geofencing: Avisos de chegada em locais salvos (Casa, Trabalho, etc.) com precisão de 20 metros.
+
+4. ⛽ Gestão de Combustível e Manutenção
+• Calculadora de Consumo: Média real (km/l) e custo por quilômetro rodado.
+• Autonomia Realista: Estimativa baseada no histórico de consumo do veículo.
+• Controle de Manutenção: Alertas para troca de óleo.
+• Lançamento Manual: Registro de abastecimentos antigos com data e hora retroativas.
+
+5. 🔌 Diagnóstico OBD2 (Bluetooth)
+• Painel Digital: Monitoramento de RPM, Temperatura e Bateria via ELM327.
+• Histórico de Sensores: Salvamento de leituras para acompanhamento da saúde do motor.
+
+6. 📄 Relatórios e Comprovação
+• Compartilhamento de Texto: Resumo organizado para WhatsApp.
+• PDF Profissional: Documento com logo, croqui da rota e QR Code para abertura no Google Maps.
+
+7. ☁️ Nuvem e Sincronização (Firebase)
+• Backup Permanente: Vinculação total com a conta Google.
+• Sincronização Manual: Botões para forçar subida (Celular -> Nuvem) e descida (Nuvem -> Celular) de dados.
+• Exclusão Sincronizada: Apagar no app remove automaticamente do servidor do Google.
+
+Classic Tracker: Tecnologia moderna para a alma do seu clássico!
+Desenvolvido por Leandro SJ

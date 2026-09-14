@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Theme.ClassicTracker" parent="android:Theme.Material.NoActionBar" />
+
+    <!-- Tema para a Splash Screen do Sistema (Android 12+) -->
+    <style name="Theme.App.Starting" parent="Theme.SplashScreen">
+        <item name="windowSplashScreenBackground">#0F1117</item>
+        <item name="windowSplashScreenAnimatedIcon">@mipmap/ic_launcher</item>
+        <item name="postSplashScreenTheme">@style/Theme.ClassicTracker</item>
+    </style>
+</resources>

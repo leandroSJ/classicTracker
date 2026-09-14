@@ -1,0 +1,21 @@
+# Android Studio / IntelliJ
+.idea/
+*.iml
+.gradle/
+build/
+
+# Local configuration
+local.properties
+google-services.json
+
+# Signing files
+*.jks
+*.keystore
+
+# Captured Screenshots
+screenshots/
+
+# System files
+.DS_Store
+Thumbs.db
+*.hprof
