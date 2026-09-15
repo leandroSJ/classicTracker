@@ -1,14 +1,18 @@
-# Classic Tracker
+# classicTracker
+
+O **classicTracker** é um aplicativo Android desenvolvido para acompanhar consumo de combustível, autonomia, abastecimentos, rotas GPS, custos por quilômetro e manutenção do veículo.
+
+---
 
 ## Sobre o aplicativo
 
-O **Classic Tracker** nasceu de uma necessidade real.
+O **classicTracker** nasceu de uma necessidade real.
 
 Após adquirir meu primeiro veículo, um **Chevrolet Corsa Classic 2009/2010**, surgiu a curiosidade de entender melhor o consumo de combustível, a autonomia e os custos envolvidos no uso diário do carro.
 
 A partir dessa necessidade, nasceu a ideia de desenvolver um aplicativo que me permitisse registrar esses dados e transformá-los em informações úteis para acompanhar o veículo de forma mais precisa.
 
-O planejamento inicial do projeto, incluindo a estrutura, infraestrutura e definição das funcionalidades, foi realizado com o auxílio do **Claude**. Posteriormente, iniciei o desenvolvimento utilizando o **Gemini**, que também me auxiliou durante as etapas seguintes do projeto.
+O planejamento inicial do projeto, incluindo estrutura, infraestrutura e definição das funcionalidades, foi realizado com o auxílio do **Claude**. Posteriormente, iniciei o desenvolvimento utilizando o **Gemini**, que também me auxiliou durante as etapas seguintes do projeto.
 
 Foram aproximadamente **cinco meses de uso real, testes, ajustes e melhorias contínuas** até chegar à versão atual, a **2.0**.
 
@@ -16,7 +20,7 @@ Como **engenheiro por trás deste projeto**, pensei em cada funcionalidade com b
 
 Embora ferramentas de Inteligência Artificial tenham sido utilizadas como apoio durante o desenvolvimento, o projeto exigiu conhecimento sobre estrutura de projetos, arquitetura de software, lógica, integração de serviços e, principalmente, uma visão clara de como transformar dados brutos de GPS, abastecimentos e trajetos em informações úteis para o motorista.
 
-O Classic Tracker não nasceu apenas como um exercício de programação. Ele nasceu para resolver um problema real.
+O **classicTracker** não nasceu apenas como um exercício de programação. Ele nasceu para resolver um problema real.
 
 ---
 
@@ -39,6 +43,10 @@ Para obter um cálculo mais preciso:
 9. Clique em **[Salvar Abastecimento]**.
 
 Com esses dados, o aplicativo consegue acompanhar a distância percorrida e calcular o consumo médio do veículo.
+
+<p align="center">
+  <img src="docs/images/consumo-medio.jpeg" width="260" alt="Tela de consumo médio do classicTracker">
+</p>
 
 ---
 
@@ -63,6 +71,13 @@ Informe a quilometragem prevista para a próxima troca e clique em **[Salvar Tro
 
 O aplicativo passa a acompanhar essa quilometragem e ajuda a lembrar quando a próxima manutenção estiver se aproximando.
 
+<p align="center">
+  <img src="docs/images/troca-oleo.jpeg" width="260" alt="Tela de troca de óleo do classicTracker">
+</p>
+<p align="center">
+  <img src="docs/images/troca-oleo1.jpeg" width="260" alt="Tela de troca de óleo do classicTracker">
+</p>
+
 ---
 
 ### Custo por quilômetro rodado
@@ -82,7 +97,7 @@ Para obter melhores resultados, recomenda-se iniciar o rastreamento sempre que u
 
 ### Mapa integrado
 
-O Classic Tracker possui um mapa integrado onde é possível salvar locais personalizados.
+O **classicTracker** possui um mapa integrado onde é possível salvar locais personalizados.
 
 Você pode, por exemplo, registrar:
 
@@ -104,15 +119,23 @@ Dessa forma, ao se aproximar do local, o aplicativo pode emitir alertas como:
 * **“Atenção: radar de 50 km/h à frente.”**
 * **“Você chegou em casa.”**
 
+<p align="center">
+  <img src="docs/images/mapa.jpeg" width="260" alt="Mapa integrado do classicTracker">
+</p>
+
 ---
 
 ### Avisos e alertas personalizados
 
 Os alertas são gerados com base nos locais salvos pelo próprio usuário.
 
-Por exemplo, costumo cadastrar radares, quebra-molas e buracos que ficam em pontos de difícil visualização. Assim, sempre que passo novamente pelo trecho, o aplicativo me lembra antecipadamente.
+Por exemplo, costumo cadastrar radares, quebra-molas e buracos localizados em pontos de difícil visualização. Assim, sempre que passo novamente pelo trecho, o aplicativo me lembra antecipadamente.
 
 Isso transforma o mapa em uma ferramenta personalizada de auxílio durante o trajeto.
+
+<p align="center">
+  <img src="docs/images/alertas.jpeg" width="260" alt="Alertas personalizados do classicTracker">
+</p>
 
 ---
 
@@ -143,6 +166,9 @@ Além do uso pessoal, essa funcionalidade também pode ser útil para quem reali
 
 Isso permite reconstruir posteriormente todo o percurso realizado.
 
+<p align="center">
+  <img src="docs/images/trajetos.jpeg" width="260" alt="Relatório de rota e consumo do classicTracker">
+</p>
 ---
 
 ### Relatório completo de rota e consumo
@@ -161,7 +187,27 @@ O aplicativo permite gerar e compartilhar um relatório detalhado contendo infor
 
 O relatório pode ser compartilhado diretamente como texto, por exemplo pelo **WhatsApp**, ou exportado como um **documento PDF**.
 
-O link da rota também pode ser utilizado como uma forma de comprovação do percurso realizado.
+O link da rota também pode ser utilizado como forma de comprovação do percurso realizado.
+
+<p align="center">
+  <img src="docs/images/relatorio.jpeg" width="260" alt="Relatório de rota e consumo do classicTracker">
+</p>
+
+---
+
+## Galeria do aplicativo
+
+<p align="center">
+  <img src="docs/images/home.jpeg" width="220" alt="Tela inicial do classicTracker">
+  <img src="docs/images/abastecimento.jpeg" width="220" alt="Tela de abastecimento do classicTracker">
+  <img src="docs/images/mapa.jpeg" width="220" alt="Mapa do classicTracker">
+</p>
+
+<p align="center">  
+  <img src="docs/images/rastreamento.jpeg" width="220" alt="Rastreamento do classicTracker">
+  <img src="docs/images/relatorio.jpeg" width="220" alt="Relatório do classicTracker">
+   <img src="docs/images/sobre.jpeg" width="220" alt="Relatório do classicTracker">
+</p>
 
 ---
 
@@ -173,11 +219,15 @@ Utilize o **Google Sign-In** para manter seus dados vinculados à sua conta.
 
 Em um novo dispositivo, utilize a opção **[Restaurar da Nuvem]** para recuperar seus dados.
 
+<p align="center">
+  <img src="docs/images/backup-nuvem.jpeg" width="260" alt="Backup em nuvem do classicTracker">
+</p>
+
 ---
 
 ### Backup local
 
-O Classic Tracker também permite exportar um arquivo `.json` contendo os principais dados do aplicativo, incluindo:
+O **classicTracker** também permite exportar um arquivo `.json` contendo os principais dados do aplicativo, incluindo:
 
 * configurações;
 * abastecimentos;
@@ -186,30 +236,97 @@ O Classic Tracker também permite exportar um arquivo `.json` contendo os princi
 
 Esse arquivo pode ser utilizado como backup manual ou transferido para outro dispositivo.
 
+<p align="center">
+  <img src="docs/images/backup-local.jpeg" width="260" alt="Backup local do classicTracker">
+</p>
+
+---
+
+## Configuração para desenvolvedores
+
+Para compilar este projeto, será necessário configurar suas próprias chaves e serviços.
+
+### Google Maps API
+
+1. Acesse a [Google Cloud Console](https://console.cloud.google.com/).
+2. Crie ou selecione um projeto.
+3. Ative a API necessária para utilização do Google Maps.
+4. Gere uma chave de API.
+5. Adicione a chave ao arquivo `local.properties`:
+
+```properties
+MAPS_API_KEY=SUA_CHAVE_AQUI
+```
+
+---
+
+### Firebase
+
+1. Acesse o [Firebase Console](https://console.firebase.google.com/).
+2. Crie um novo projeto.
+3. Adicione um aplicativo Android ao projeto.
+4. Baixe o arquivo `google-services.json`.
+5. Adicione o arquivo dentro da pasta:
+
+```text
+app/
+```
+
+6. Ative os seguintes serviços:
+
+* **Authentication**
+
+  * provedor Google;
+* **Realtime Database**.
+
+---
+
+## Estrutura das imagens
+
+Para que as imagens do README funcionem corretamente, utilize a seguinte estrutura:
+
+```text
+ClassicTracker/
+├── app/
+├── docs/
+│   └── images/
+│       ├── home.jpeg
+│       ├── abastecimento.jpeg
+│       ├── consumo-medio.jpeg
+│       ├── autonomia.jpeg
+│       ├── troca-oleo.jpeg
+│       ├── custo-km.jpeg
+│       ├── mapa.jpeg
+│       ├── alertas.jpeg
+│       ├── dicas.jpeg
+│       ├── rastreamento.jpeg
+│       ├── historico.jpeg
+│       ├── relatorio.jpeg
+│       ├── backup-nuvem.jpeg
+│       └── backup-local.jpeg
+├── README.md
+└── ...
+```
+
+---
+
+## Versionamento
+
+O projeto passou a utilizar controle de versão oficialmente a partir da versão **2.0**.
+
+Por esse motivo, versões anteriores do **classicTracker** não possuem histórico de commits neste repositório.
+
 ---
 
 ## Licença e uso
 
-O **Classic Tracker** é um projeto de uso **gratuito**.
+O **classicTracker** é um projeto de uso **gratuito**.
 
 Sinta-se à vontade para utilizar, testar e sugerir melhorias.
 
 ---
 
-## Configuração para Desenvolvedores
-
-Para compilar este projeto, você precisará configurar suas próprias chaves e serviços:
-
-1. **Google Maps API**: 
-   - Obtenha uma chave na [Google Cloud Console](https://console.cloud.google.com/).
-   - Adicione no seu arquivo `local.properties`: `MAPS_API_KEY=SUA_CHAVE_AQUI`.
-2. **Firebase**:
-   - Crie um projeto no [Firebase Console](https://console.firebase.google.com/).
-   - Adicione o seu arquivo `google-services.json` na pasta `app/`.
-   - Ative a **Autenticação (Google)** e o **Realtime Database**.
-
----
-
-> **Classic Tracker — Tecnologia moderna para a alma do seu clássico!**
+> **classicTracker — Tecnologia moderna para a alma do seu clássico!**
 
 **Desenvolvido e idealizado por Leandro SJ**
+ 
