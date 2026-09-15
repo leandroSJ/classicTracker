@@ -197,14 +197,12 @@ O link da rota também pode ser utilizado como forma de comprovação do percurs
 
 ## Galeria do aplicativo
 
-<p align="center">
-  <img src="docs/images/home.jpeg" width="220" alt="Tela inicial do classicTracker">
+<p align="center">  
   <img src="docs/images/abastecimento.jpeg" width="220" alt="Tela de abastecimento do classicTracker">
   <img src="docs/images/mapa.jpeg" width="220" alt="Mapa do classicTracker">
 </p>
 
-<p align="center">  
-  <img src="docs/images/rastreamento.jpeg" width="220" alt="Rastreamento do classicTracker">
+<p align="center">    
   <img src="docs/images/relatorio.jpeg" width="220" alt="Relatório do classicTracker">
    <img src="docs/images/sobre.jpeg" width="220" alt="Relatório do classicTracker">
 </p>
@@ -235,10 +233,6 @@ O **classicTracker** também permite exportar um arquivo `.json` contendo os pri
 * locais salvos.
 
 Esse arquivo pode ser utilizado como backup manual ou transferido para outro dispositivo.
-
-<p align="center">
-  <img src="docs/images/backup-local.jpeg" width="260" alt="Backup local do classicTracker">
-</p>
 
 ---
 
@@ -278,43 +272,13 @@ app/
 
   * provedor Google;
 * **Realtime Database**.
-
----
-
-## Estrutura das imagens
-
-Para que as imagens do README funcionem corretamente, utilize a seguinte estrutura:
-
-```text
-ClassicTracker/
-├── app/
-├── docs/
-│   └── images/
-│       ├── home.jpeg
-│       ├── abastecimento.jpeg
-│       ├── consumo-medio.jpeg
-│       ├── autonomia.jpeg
-│       ├── troca-oleo.jpeg
-│       ├── custo-km.jpeg
-│       ├── mapa.jpeg
-│       ├── alertas.jpeg
-│       ├── dicas.jpeg
-│       ├── rastreamento.jpeg
-│       ├── historico.jpeg
-│       ├── relatorio.jpeg
-│       ├── backup-nuvem.jpeg
-│       └── backup-local.jpeg
-├── README.md
-└── ...
-```
-
 ---
 
 ## Versionamento
 
 O projeto passou a utilizar controle de versão oficialmente a partir da versão **2.0**.
 
-Por esse motivo, versões anteriores do **classicTracker** não possuem histórico de commits neste repositório.
+por conta que eu iniciei o projeto e não queria publicar era algo para ser rápido, Por esse motivo, versões anteriores do **classicTracker** não possuem histórico de commits neste repositório.
 
 ---
 
@@ -322,8 +286,7 @@ Por esse motivo, versões anteriores do **classicTracker** não possuem históri
 
 O **classicTracker** é um projeto de uso **gratuito**.
 
-Sinta-se à vontade para utilizar, testar e sugerir melhorias.
-
+Sinta-se à vontade para utilizar.
 ---
 
 > **classicTracker — Tecnologia moderna para a alma do seu clássico!**
