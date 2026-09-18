@@ -12,13 +12,11 @@ Após adquirir meu primeiro veículo, um **Chevrolet Corsa Classic 2009/2010**, 
 
 A partir dessa necessidade, nasceu a ideia de desenvolver um aplicativo que me permitisse registrar esses dados e transformá-los em informações úteis para acompanhar o veículo de forma mais precisa.
 
-O planejamento inicial do projeto, incluindo estrutura, infraestrutura e definição das funcionalidades, foi realizado com o auxílio do **Claude**. Posteriormente, iniciei o desenvolvimento utilizando o **Gemini**, que também me auxiliou durante as etapas seguintes do projeto.
-
 Foram aproximadamente **cinco meses de uso real, testes, ajustes e melhorias contínuas** até chegar à versão atual, a **2.0**.
 
-Como **engenheiro por trás deste projeto**, pensei em cada funcionalidade com base em situações que realmente enfrento no dia a dia.
+Como responsável pelo desenvolvimento do projeto, defini as funcionalidades com base em situações reais do dia a dia e fui evoluindo a solução a partir do uso prático.
 
-Embora ferramentas de Inteligência Artificial tenham sido utilizadas como apoio durante o desenvolvimento, o projeto exigiu conhecimento sobre estrutura de projetos, arquitetura de software, lógica, integração de serviços e, principalmente, uma visão clara de como transformar dados brutos de GPS, abastecimentos e trajetos em informações úteis para o motorista.
+Ferramentas de IA foram utilizadas como apoio durante pesquisa e desenvolvimento, enquanto requisitos, testes em uso real, decisões de produto e evolução das funcionalidades fizeram parte do processo de construção do aplicativo.
 
 O **classicTracker** não nasceu apenas como um exercício de programação. Ele nasceu para resolver um problema real.
 
@@ -269,16 +267,16 @@ app/
 6. Ative os seguintes serviços:
 
 * **Authentication**
-
   * provedor Google;
 * **Realtime Database**.
+
 ---
 
 ## Versionamento
 
 O projeto passou a utilizar controle de versão oficialmente a partir da versão **2.0**.
 
-por conta que eu iniciei o projeto e não queria publicar era algo para ser rápido, Por esse motivo, versões anteriores do **classicTracker** não possuem histórico de commits neste repositório.
+As versões anteriores foram desenvolvidas como um projeto pessoal e não foram publicadas neste repositório. A partir da versão 2.0, o Git passou a fazer parte oficialmente do fluxo de desenvolvimento.
 
 ---
 
@@ -287,9 +285,9 @@ por conta que eu iniciei o projeto e não queria publicar era algo para ser ráp
 O **classicTracker** é um projeto de uso **gratuito**.
 
 Sinta-se à vontade para utilizar.
+
 ---
 
 > **classicTracker — Tecnologia moderna para a alma do seu clássico!**
 
 **Desenvolvido e idealizado por Leandro SJ**
- 
